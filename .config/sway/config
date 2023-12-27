@@ -7,10 +7,13 @@
 font pango: SourceCodePro Medium 16
 default_border pixel 2
 
-gaps inner 6px
-gaps outer 6px
+gaps inner 5px
+gaps outer 5px
 
-input "type:keyboard" xkb_options caps:swapescape
+input "type:keyboard" {
+  xkb_layout pl
+  xkb_options caps:swapescape
+}
 input "type:pointer" accel_profile flat
 
 ### Variables
