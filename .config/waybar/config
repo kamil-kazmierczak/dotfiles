@@ -154,10 +154,12 @@
     "wireplumber": {
       "format": "{volume}%",
       "format-muted": "<U+F026>",
-      "on-click": "helvum"
+     // "on-click": "helvum"
+      "on-click": "foot pulsemixer"
     },
     "bluetooth": {
-      "on-click": "blueman-manager"
+      // "on-click": "blueman-manager"
+      "on-click": "foot bluetuith"
     },
     "custom/media": {
       "format": "{icon} {}",
