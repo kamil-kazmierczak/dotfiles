@@ -100,6 +100,5 @@ export PATH=$PATH:$SCRIPTS_PATH
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias kamilo_open_file="open-file.sh"
+alias zshconfig="nvim ~/.zshrc"
+alias openfile="open-file.sh"
