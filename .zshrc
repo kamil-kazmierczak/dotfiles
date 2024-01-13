@@ -101,4 +101,5 @@ export PATH=$PATH:$SCRIPTS_PATH
 #
 # Example aliases
 alias zshconfig="nvim ~/.zshrc"
+alias hyprconfig="nvim ~/.config/hypr/hyprland.conf"
 alias openfile="open-file.sh"
