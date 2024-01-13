@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=()
 
 source $ZSH/oh-my-zsh.sh
 
@@ -91,6 +91,16 @@ export SCRIPTS_PATH=~/.scripts
 export EDITOR='nvim'
 export PATH=$PATH:$SCRIPTS_PATH
 
+if [[ -z "$FZF_DEFAULT_COMMAND" ]]; then
+  if (( $+commands[fd] )); then
+    export FZF_DEFAULT_COMMAND='fd --type f --hidden --exclude .git'
+  elif (( $+commands[rg] )); then
+    export FZF_DEFAULT_COMMAND='rg --files --hidden --glob "!.git/*"'
+  elif (( $+commands[ag] )); then
+    export FZF_DEFAULT_COMMAND='ag -l --hidden -g "" --ignore .git'
+  fi
+fi
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -102,6 +112,6 @@ export PATH=$PATH:$SCRIPTS_PATH
 # Example aliases
 alias zshconfig="nvim ~/.zshrc"
 alias hyprconfig="nvim ~/.config/hypr/hyprland.conf"
+alias opendir="source open-dir.sh" # Source command is needed for run in current shell (not subshell)
 alias openfile="open-file.sh"
 alias lla="ls -la"
-alias :q="exit"

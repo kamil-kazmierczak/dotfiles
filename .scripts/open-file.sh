@@ -1,10 +1,12 @@
 #!/bin/bash
 
-cd
-FILE_PATH=$(fzf -m --height=20 --border=double --border-label=" Search file " --border-label-pos=0:top --margin=1,5% --no-info --no-scrollbar --prompt='> ' --pointer='->' --marker='*' --tabstop=4)
+cd ~
 
-echo $FILE_PATH
+FILE_PATH=$(fd --type f --hidden --exclude .git --exclude node_modules | fzf -m --height=20 --border=double --border-label=" Open directory " --border-label-pos=0:top --margin=1,5% --no-info --no-scrollbar --prompt='> ' --pointer='->' --marker='*' --tabstop=4)
+
 
 if [[ -n "$FILE_PATH" ]]; then	
-	nvim $FILE_PATH
+    nvim $FILE_PATH
 fi
+
+exit 0
