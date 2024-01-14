@@ -110,8 +110,11 @@ fi
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="nvim ~/.zshrc"
-alias hyprconfig="nvim ~/.config/hypr/hyprland.conf"
 alias opendir="source open-dir.sh" # Source command is needed for run in current shell (not subshell)
 alias openfile="open-file.sh"
+alias copydotfiles="copy-dotfiles.sh"
+
 alias lla="ls -la"
+alias gs="git status"
+alias ga="git add"
+alias gd="git diff"
