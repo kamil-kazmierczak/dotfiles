@@ -1,0 +1,14 @@
+[font]
+size = 14.0
+normal = { family = "Roboto Mono", style = "Regular" }
+
+[cursor]
+#thickness = 1.0
+
+[window]
+dynamic_padding = true
+padding = { x = 3, y = 3 }
+opacity = 0.95
+
+[shell]
+program = "/bin/zsh"
