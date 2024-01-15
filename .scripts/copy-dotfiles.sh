@@ -15,4 +15,6 @@ cp -r \
 
 cp ~/.config/nvim/init.lua ~/repositories/dotfiles/.config/nvim
 
+echo 'Files copied successfully!'
+
 exit
