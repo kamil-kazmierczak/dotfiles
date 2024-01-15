@@ -12,7 +12,7 @@ normal = { family = "Roboto Mono", style = "Regular" }
 [window]
 dynamic_padding = true
 padding = { x = 3, y = 3 }
-opacity = 0.9
+opacity = 0.95
 
 [shell]
 program = "/bin/zsh"
