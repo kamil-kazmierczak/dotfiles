@@ -11,8 +11,11 @@
 }
 
 window#waybar {
-    background-color: rgba(50, 50, 50, 0.9);
-    border-bottom: 0px solid rgba(100, 114, 125, 0.5);
+    /* background-color: rgba(50, 50, 50, 0.9); */
+    /* background-color: transparent;  */
+	background-color: #191724;
+	opacity: 0.9;
+	border-bottom: 0px solid rgba(100, 114, 125, 0.5);
     /*color: #ffffff;*/
     transition-property: background-color;
     transition-duration: .5s;
