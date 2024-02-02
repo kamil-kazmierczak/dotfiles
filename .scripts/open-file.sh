@@ -2,8 +2,7 @@
 
 cd ~
 
-FILE_PATH=$(fd --type f --hidden --exclude .git --exclude node_modules | fzf -m --height=20 --border=double --border-label=" Open text file " --border-label-pos=0:top --margin=1,5% --no-info --no-scrollbar --prompt='> ' --pointer='->' --marker='*' --tabstop=4)
-
+FILE_PATH=$(fd --type f --hidden --exclude .git --exclude node_modules --exclude .npm | fzf -m --height=20)
 
 if [[ -n "$FILE_PATH" ]]; then	
     nvim $FILE_PATH
