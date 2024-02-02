@@ -14,7 +14,7 @@ TERM='alacritty-direct'
 [window]
 dynamic_padding = true
 padding = { x = 3, y = 3 }
-opacity = 0.85
+opacity = 0.9
 
 [shell]
 program = "/bin/zsh"
