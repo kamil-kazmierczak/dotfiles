@@ -4,7 +4,7 @@ import = [
 
 [font]
 size = 14.0
-normal = { family = "Roboto Mono", style = "Regular" }
+normal = { family = "RobotoMono Nerd Font", style = "Regular" }
 
 [cursor]
 #thickness = 1.0
