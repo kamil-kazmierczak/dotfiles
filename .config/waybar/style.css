@@ -2,7 +2,7 @@
     border: none;
     border-radius: 0px;
     /* `ttf-font-awesome` is required to be installed for icons */
-    font-family: "Roboto Mono Medium", Helvetica, Arial, sans-serif;
+    font-family: "RobotoMono Nerd Font", Helvetica, Arial, sans-serif;
 
     /* adjust font-size value to your liking: */
     font-size: 18px;
@@ -14,7 +14,7 @@ window#waybar {
     /* background-color: rgba(50, 50, 50, 0.9); */
     /* background-color: transparent;  */
 	background-color: #191724;
-	opacity: 0.9;
+	opacity: 0.97;
 	border-bottom: 0px solid rgba(100, 114, 125, 0.5);
     /*color: #ffffff;*/
     transition-property: background-color;
