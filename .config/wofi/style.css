@@ -1,17 +1,14 @@
 * {
-	border-radius: 3px;
+	border-radius: 0px;
 	border: none;
 }
 
-
-
 window {
 	font-size: 18px;
-	font-family: "Roboto Mono Medium";
-	background-color: rgba(50,50,50,0.9);
-	color: white;
-	border-bottom: 3px solid white;
-	
+	font-family: "RobotoMono Nerd Font";
+	background-color: rgba(25,23,36,0.9); /* background-color: #191724; */
+	color: #E0DEF4;
+	border: 0px solid black;
 }
 
 #entry {
@@ -19,17 +16,18 @@ window {
 }
 
 #entry:selected {
-	background-color: #bbccdd;
-	color: #333333;
+	/* background-color: #31748F; */
+	background-color: #9CCFD8;
+	color: #6E6A86;
 }
 
 #text:selected {
-	color: #333333;
+	color: #6E6A86;
 }
 
 #input {
-	background-color: rgba(50,50,50,0.5);
-	color: white;
+	background-color: rgba(25,23,36,0.5);
+	color: #E0DEF4;
 	padding: 0.25rem;
 }
 
