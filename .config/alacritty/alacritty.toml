@@ -3,18 +3,19 @@ import = [
 ]
 
 [font]
-size = 16.0
-normal = { family = "RobotoMono Nerd Font", style = "Regular" }
+size = 18.0
+normal = { family = "FiraMono Nerd Font", style = "Regular" }
 
 [cursor]
-#thickness = 1.0
+# thickness = 1.0
+
 [env]
 TERM='alacritty-direct'
 
 [window]
 dynamic_padding = true
 padding = { x = 3, y = 3 }
-opacity = 0.9
+opacity = 0.97
 
 [shell]
 program = "/bin/zsh"
