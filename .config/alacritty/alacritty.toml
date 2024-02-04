@@ -14,7 +14,6 @@ TERM='alacritty-direct'
 
 [window]
 dynamic_padding = true
-padding = { x = 3, y = 3 }
 opacity = 0.97
 
 [shell]

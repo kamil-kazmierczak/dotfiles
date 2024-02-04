@@ -19,6 +19,8 @@ if [[ -z "$FZF_DEFAULT_COMMAND" ]]; then
     export FZF_DEFAULT_COMMAND='ag -l --hidden -g "" --ignore .git'
   fi
 fi
+export FZF_DEFAULT_OPTS="--no-color --no-info"
+
 
 alias od="source open-dir.sh" 
 alias of="open-file.sh"
