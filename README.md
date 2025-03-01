@@ -14,7 +14,7 @@ cd dotfiles
 
 If you want to stow only .config catalog:
 ```
-stow ~/.config .config
+stow -t ~/.config .config
 ```
 
 If you want to stow all:
