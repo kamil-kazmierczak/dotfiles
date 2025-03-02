@@ -1,14 +1,22 @@
 First of all you need to install ```stow```:
 ```
 sudo pacman -S stow
-```
-
-Next step:
-```
 cd ~/Projects
-git clone git@github.com:kamil-kazmierczak/dotfiles.git
-git clone git@github.com:kamil-kazmierczak/nvim.git
+```
 
+
+Next step - clone dotfiles repository with submodule:
+```
+git clone git@github.com:kamil-kazmierczak/dotfiles.git
+
+cd dotfiles
+
+git submodule init
+git submodule update
+```
+or
+```
+git clone --recurse-submodules git@github.com:kamil-kazmierczak/dotfiles.git
 cd dotfiles
 ```
 
