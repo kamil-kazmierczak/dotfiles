@@ -1,4 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
+export XDG_SESSION=wayland
+export _JAVA_AWT_WM_NONREPARENTING=1
+export MOZ_ENABLE_WAYLAND=1
 
 ZSH_THEME="robbyrussell"
 plugins=()
@@ -24,8 +27,14 @@ export FZF_DEFAULT_OPTS="--no-color --no-info"
 
 alias od="source open-dir.sh" 
 alias of="open-file.sh"
+alias op="source open-project-dir.sh"
 
 alias lla="ls -la"
 alias gs="git status"
 alias ga="git add"
 alias gd="git diff"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
