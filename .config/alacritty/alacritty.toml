@@ -11,11 +11,12 @@ TERM='alacritty-direct'
 
 [window]
 dynamic_padding = true
-opacity = 0.97
+opacity = 0.99
 
 [general]
 import = [
-    "~/.config/alacritty/rose-pine.toml"
+    "~/.config/alacritty/dracula.toml"
+    # "~/.config/alacritty/rose-pine.toml"
 ]
 
 [terminal]
