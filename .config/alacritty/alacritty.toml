@@ -4,18 +4,22 @@ size = 12.0
 normal = { family = "JetBrainsMono", style = "Regular" }
 
 [cursor]
-thickness = 0.5
+thickness = 0.3
 
 [env]
 TERM='alacritty-direct'
 
 [window]
 dynamic_padding = true
-opacity = 0.99
+opacity = 1.0
+decorations = "None"
+
+[window.padding]
+x = 10
+y = 10
 
 [general]
 import = [
-    #"~/.config/alacritty/dracula.toml"
     "~/.config/alacritty/catppuccin-mocha.toml"
 ]
 
