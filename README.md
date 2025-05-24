@@ -5,18 +5,10 @@ cd ~/Projects
 ```
 
 
-Next step - clone dotfiles repository with submodule:
+Next step - clone dotfiles repository:
 ```
 git clone git@github.com:kamil-kazmierczak/dotfiles.git
 
-cd dotfiles
-
-git submodule init
-git submodule update
-```
-or
-```
-git clone --recurse-submodules git@github.com:kamil-kazmierczak/dotfiles.git
 cd dotfiles
 ```
 
