@@ -2,7 +2,7 @@
 
 cd ~
 
-FILE_PATH=$(fd --type f --hidden --exclude logseq --exclude .git --exclude node_modules --exclude .npm | fzf -m --height=10 --no-info)
+FILE_PATH=$(fdfind --type f --hidden --exclude logseq --exclude .git --exclude node_modules --exclude .npm | fzf -m --height=10 --no-info)
 
 
    
