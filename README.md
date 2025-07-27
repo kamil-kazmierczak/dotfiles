@@ -19,6 +19,6 @@ stow -t ~/.config .config
 
 If you want to stow all:
 ```
-stow .
+stow -t ~ .
 ```
-
+You may probably need to remove files that already exist (etc. .zshrc)
