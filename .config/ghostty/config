@@ -1,9 +1,9 @@
-font-family = JetBrains Mono
-font-size = 13
-theme = catppuccin-mocha
+font-family = CaskaydiaCove Nerd Font Mono
+font-size = 14
+theme = Catppuccin Mocha
 window-padding-x = 10
 shell-integration-features = no-cursor
 cursor-style = block
-cursor-style-blink = false
+cursor-style-blink = true
 background-opacity = 1.0
-background-blur = false
+background-blur = true
